@@ -26,6 +26,11 @@ const routes = [
         path: 'simple-calendar',
         name: 'simple-calendar',
         component: () => import('@/views/SimpleCalendar.vue')
+      },
+      {
+        path: 'modal-view',
+        name: 'modal-view',
+        component: () => import('@/views/ModalView.vue')
       }
     ]
   }

@@ -7,6 +7,7 @@
           <router-link to="/rabbit-button" class="mr-5 hover:text-gray-900">RabbitButton</router-link>
           <router-link to="/accordion-menu-item" class="mr-5 hover:text-gray-900">AccordionMenuItem</router-link>
           <router-link to="/simple-calendar" class="mr-5 hover:text-gray-900">SimpleCalendar</router-link>
+          <router-link to="/modal-view" class="mr-5 hover:text-gray-900">Modal</router-link>
         </nav>
       </div>
     </header>
