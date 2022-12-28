@@ -21,6 +21,11 @@ const routes = [
         path: 'accordion-menu-item',
         name: 'accordion-menu-item',
         component: () => import('@/views/AccordionMenuItem.vue')
+      },
+      {
+        path: 'simple-calendar',
+        name: 'simple-calendar',
+        component: () => import('@/views/SimpleCalendar.vue')
       }
     ]
   }

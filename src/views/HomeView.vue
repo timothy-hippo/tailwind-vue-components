@@ -6,7 +6,7 @@
           <router-link to="/progress-bar" class="mr-5 hover:text-gray-900">ProgressBar</router-link>
           <router-link to="/rabbit-button" class="mr-5 hover:text-gray-900">RabbitButton</router-link>
           <router-link to="/accordion-menu-item" class="mr-5 hover:text-gray-900">AccordionMenuItem</router-link>
-          <router-link to="" class="mr-5 hover:text-gray-900">Fourth Link</router-link>
+          <router-link to="/simple-calendar" class="mr-5 hover:text-gray-900">SimpleCalendar</router-link>
         </nav>
       </div>
     </header>
