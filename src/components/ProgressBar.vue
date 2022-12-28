@@ -34,32 +34,30 @@
 export default {
   name: 'ProgressBar',
   props: ['minVal', 'maxVal', 'currentVal'],
-  data() {
+  data () {
     return {
       percent: ''
     }
   },
-  mounted() {
+  mounted () {
     this.percent =
       this.currentVal <= this.minVal
         ? 0
-        : Number(
-            (
-              ((this.currentVal - this.minVal) / (this.maxVal - this.minVal)) *
-              100
-            ).toFixed(1)
-          )
+        : Number((
+          ((this.currentVal - this.minVal) / (this.maxVal - this.minVal)) *
+          100
+        ).toFixed(1))
   },
   watch: {
-    currentVal(n, o) {
+    currentVal (n, o) {
       this.percent =
         n <= this.minVal
           ? 0
           : Number(
-              (((n - this.minVal) / (this.maxVal - this.minVal)) * 100).toFixed(
-                1
-              )
+            (((n - this.minVal) / (this.maxVal - this.minVal)) * 100).toFixed(
+              1
             )
+          )
     }
   }
 }

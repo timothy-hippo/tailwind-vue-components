@@ -11,6 +11,16 @@ const routes = [
         path: 'progress-bar',
         name: 'progress-bar',
         component: () => import('@/views/ProgressBar.vue')
+      },
+      {
+        path: 'rabbit-button',
+        name: 'rabbit-button',
+        component: () => import('@/views/RabbitButton.vue')
+      },
+      {
+        path: 'accordion-menu-item',
+        name: 'accordion-menu-item',
+        component: () => import('@/views/AccordionMenuItem.vue')
       }
     ]
   }
