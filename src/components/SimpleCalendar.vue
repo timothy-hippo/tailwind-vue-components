@@ -49,7 +49,7 @@ import moment from 'moment'
 export default {
   data () {
     return {
-      weekDays: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+      weekDays: ['日', '一', '二', '三', '四', '五', '六'],
       toDay: moment().toDate(),
       days: []
     }
