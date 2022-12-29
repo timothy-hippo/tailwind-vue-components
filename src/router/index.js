@@ -31,6 +31,11 @@ const routes = [
         path: 'modal-view',
         name: 'modal-view',
         component: () => import('@/views/ModalView.vue')
+      },
+      {
+        path: 'dark-mode-switcher',
+        name: 'dark-mode-switcher',
+        component: () => import('@/views/DarkModeSwitcher.vue')
       }
     ]
   }
